@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 from pyrogram import Client
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from pyrogram.filters import *
+from pyrogram.filters import Filters
 import wget
 import os
 from PIL import Image
