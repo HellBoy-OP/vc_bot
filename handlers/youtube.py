@@ -9,7 +9,7 @@ from config import BOT_NAME as bn, PLAY_PIC, youtube_next_fetch
 from helpers.filters import command, other_filters
 from helpers.decorators import errors
 from handlers import user_time
-from helpers.ytdlfunc import extractYt, create_buttons
+from helpers.ytfunc import extractYt, create_buttons
 
 ytregex = r"^((?:https?:)?\/\/)?((?:www|m)\.)?((?:youtube\.com|youtu.be))(\/(?:[\w\-]+\?v=|embed\/|v\/)?)([\w\-]+)(\S+)?$"
 
