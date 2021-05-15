@@ -1,5 +1,6 @@
 from datetime import datetime, timedelta
-from pyrogram import Client, InlineKeyboardMarkup, InlineKeyboardButton
+from pyrogram import Client
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.filters import *
 import wget
 import os
