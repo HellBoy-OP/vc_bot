@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta
-from pyrogram import Client, Filters, InlineKeyboardMarkup, InlineKeyboardButton
-
+from pyrogram import Client, InlineKeyboardMarkup, InlineKeyboardButton
+from pyrogram.filters import *
 import wget
 import os
 from PIL import Image
