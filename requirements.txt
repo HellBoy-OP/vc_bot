@@ -10,3 +10,7 @@ requests
 aiohttp
 asyncio
 search_engine_parser
+https://raw.githubusercontent.com/HasibulKabir/pyrogramarchive/master/pyrogramasyncv0.18.0.zip
+wget
+pillow
+hachoir
