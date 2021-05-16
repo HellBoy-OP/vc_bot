@@ -10,6 +10,3 @@ requests
 aiohttp
 asyncio
 search_engine_parser
-wget
-pillow
-hachoir
