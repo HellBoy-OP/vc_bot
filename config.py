@@ -17,5 +17,3 @@ DURATION_LIMIT = int(getenv("DURATION_LIMIT", "7"))
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ !").split())
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
-
-youtube_next_fetch = 0 
